@@ -1,4 +1,4 @@
-console.log("Client sude javascript file is loaded!");
+// console.log("Client sude javascript file is loaded!");
 
 // fetch("http://localhost:3000/weather?address=boston").then((res) => {
 //   res.json().then((data) => {
