@@ -12,7 +12,7 @@
 // });
 
 const sendFetch = async (input) => {
-  const res = await fetch(`http://localhost:3000/weather?address=${input}`);
+  const res = await fetch(`/weather?address=${input}`);
   const data = await res.json();
 
   if (data.error) {
